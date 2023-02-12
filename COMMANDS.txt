@@ -1,0 +1,10 @@
+npx create-react-app deepdive
+cd deepdive
+npm install react-router-dom
+npm install -g add-react-component
+npm install -D tailwindcss
+npx tailwindcss init
+
+//Verander de 'Content' export in tailwind.config.js naar > content: [ "./src/**/*.{js,jsx,ts,tsx}",]
+//Maak een 'components' folder aan in de src folder
+
